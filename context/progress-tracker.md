@@ -4,11 +4,11 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Phase 0: ML foundations and baseline
+- Phase A: frontend scaffold (minimal)
 
 ## Current Goal
 
-- Set up the ML environment and explore the Mohler dataset. Split logic is intentionally out of scope for this step.
+- Scaffold the Next.js web app, Clerk auth, PostgreSQL/Prisma schema, and ML client without feature screens or ML changes.
 
 ## Phases
 
@@ -27,6 +27,7 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## In Progress
 
+- Phase A scaffold completed; feature screens and app workflows have not been implemented.
 - Notebook creation is waiting for `ml/data/mohler_dataset_edited.csv` and confirmation of its columns.
 
 ## Next Up
@@ -49,4 +50,4 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Session Notes
 
-- Add context needed to resume work in the next session.
+- The minimal Phase A web scaffold was added under `web/`; no files under `ml/` or `ml-service/` were changed.
